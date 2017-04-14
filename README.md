@@ -65,7 +65,6 @@ debugAppAuth('more info');
 
 ISC © [Buster Collings](https://about.me/buster)
 
-
 [npm-image]: https://badge.fury.io/js/debugging.svg
 [npm-url]: https://npmjs.org/package/debugging
 [travis-image]: https://travis-ci.org/busterc/debugging.svg?branch=master
