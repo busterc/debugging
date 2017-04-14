@@ -1,0 +1,58 @@
+{
+  "name": "debugging",
+  "version": "1.0.0",
+  "description": "this.debugging = debug + callsites + derived namespacing",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "https://about.me/buster"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "debug",
+    "debugging",
+    "debugger",
+    "log",
+    "logger",
+    "logging",
+    "callsite",
+    "callsites",
+    "stack",
+    "trace",
+    "stacktrace",
+    "namespace"
+  ],
+  "dependencies": {
+    "callsites": "^2.0.0",
+    "debug": "^2.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "intercept-stdout": "^0.1.2",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1",
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test-debug": "jest --coverage",
+    "test": "DEBUG=test* npm run test-debug"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "busterc/debugging",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "ISC"
+}
