@@ -1,6 +1,6 @@
 {
   "name": "debugging",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this.debugging = debug + callsites + derived namespacing",
   "author": {
     "name": "Buster Collings",
@@ -26,7 +26,6 @@
     "namespace"
   ],
   "dependencies": {
-    "callsites": "^2.0.0",
     "debug": "^2.6.3"
   },
   "devDependencies": {
