@@ -1,6 +1,6 @@
 {
   "name": "debugging",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "this.debugging = debug + callsites + derived namespacing",
   "author": {
     "name": "Buster Collings",
