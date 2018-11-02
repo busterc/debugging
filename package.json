@@ -26,15 +26,15 @@
     "namespace"
   ],
   "dependencies": {
-    "debug": "^2.6.3"
+    "debug": "^4.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-xo-space": "^0.16.0",
+    "eslint": "^5.8.0",
+    "eslint-config-xo-space": "^0.20.0",
     "intercept-stdout": "^0.1.2",
-    "jest": "^19.0.2",
-    "jest-cli": "^19.0.1",
-    "nsp": "^2.6.3"
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "nsp": "^3.2.1"
   },
   "scripts": {
     "prepublish": "nsp check",

@@ -1,4 +1,5 @@
-# debugging [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# debugging [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
+
 > this.debugging = [debug](https://github.com/visionmedia/debug) + [callsites](https://github.com/sindresorhus/callsites) + derived namespacing
 
 ## Installation
@@ -34,18 +35,18 @@ debugAppAuth('more info');
 
 - #### namespace
 
-    Type `String`
+  Type `String`
 
-    The initial namespace to be applied to the debug logger; the default is 'app'.
+  The initial namespace to be applied to the debug logger; the default is 'app'.
 
 ### another(namespace) : Debugging
 
 - #### namespace
 
-    *Required*
-    Type `String`
+  _Required_
+  Type `String`
 
-    A namespace to be appended to the current debug namespace
+  A namespace to be appended to the current debug namespace
 
 ### source(callsite, [info])
 
@@ -53,13 +54,12 @@ debugAppAuth('more info');
 
 - #### callsite
 
-    *Required*
-    Type: `Object`
+  _Required_
+  Type: `Object`
 
 - #### info
 
-    Type: `Any`
-
+  Type: `Any`
 
 ## License
 
@@ -71,3 +71,7 @@ ISC © [Buster Collings](https://about.me/buster)
 [travis-url]: https://travis-ci.org/busterc/debugging
 [daviddm-image]: https://david-dm.org/busterc/debugging.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/busterc/debugging
+[coveralls-image]: https://coveralls.io/repos/busterc/debugging/badge.svg
+[coveralls-url]: https://coveralls.io/r/busterc/debugging
+[greenkeeper-image]: https://badges.greenkeeper.io/busterc/debugging.svg
+[greenkeeper-url]: https://greenkeeper.io/
