@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "eslint": "^5.8.0",
+    "eslint": "^6.7.2",
     "eslint-config-xo-space": "^0.20.0",
     "intercept-stdout": "^0.1.2",
     "jest": "^23.6.0",
