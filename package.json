@@ -29,7 +29,7 @@
     "debug": "^4.1.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.12",
     "eslint": "^5.8.0",
     "eslint-config-xo-space": "^0.20.0",
     "intercept-stdout": "^0.1.2",
